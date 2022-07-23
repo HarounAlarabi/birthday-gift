@@ -1,0 +1,84 @@
+body{
+  text-align:center;
+  font-family: 'Happy Monkey', cursive;
+  background:#DC6EB9;
+  color:#ffffff;
+}
+#header {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+  
+  
+
+h1 ,h2 ,h4{
+  text-shadow: 0px 0px 2px black;
+}
+#h-age {
+  background: #DF2DD6;
+   padding: 5px 10px;
+   border-radius: 5px;
+   margin: 20px 0 10px 0;
+
+}
+#h-date{
+  margin:0;
+  background: #DF2DD6;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#bff-img{
+  width: 150px;
+  border: 2px solid red;
+  border-radius:50%;
+  
+}
+#gift-img-cheers{
+  height: 200px;
+}
+
+.gift-img{
+  width:400px;
+  height: 400px;
+  border: 7px solid white;
+  border-radius: 10px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0402/6217/2830/products/gift_50e198b4-3252-4d1b-a74d-cc427d5edad8_412x.jpg?v=1639485838");
+  margin: auto;
+}
+#gift-happy:hover{
+  background-image: url("https://media3.giphy.com/media/26FPnxsSXq1UaZCik/giphy.gif?cid=ecf05e4765dbjhdk8hs7bezt13hzhgqfjzvqrqsfr5ipswp5&rid=giphy.gif&ct=g");
+}
+#gift-hot:hover{
+  background-image: url("https://media1.giphy.com/media/3o7qDE31B2gsTCn98A/giphy.gif?cid=ecf05e47d9v511b4d7l8qynrpzajtq36nzzhwfzj9q9k5o21&rid=giphy.gif&ct=g")
+}
+#gift-genius:hover{
+  background-image: url("https://media3.giphy.com/media/fvrfW6FkwTvYcZCvsy/200w.webp?cid=ecf05e47bauy56onzq6cuppr8tfcuf747eimtbp9k5wqnuav&rid=200w.webp&ct=g");
+    background-size: cover
+      
+}
+#gift-badass:hover{
+  background-image: url("https://media1.giphy.com/media/icJnlzdUpdenLu2c5G/200w.webp?cid=ecf05e47on8gzq2q9quhhpmin6vdycijlr3dq781oxlp2jb8&rid=200w.webp&ct=g");
+    background-size: cover;
+}
+#gift-img-cheers:hover{
+  background-image : url("https://media0.giphy.com/media/B2sHKQU484bQY34Pop/giphy.gif?cid=ecf05e47ocoy85tk03or5rzybd4d7w508p6guojqsvho5zpu&rid=giphy.gif&ct=g");
+  background-size: cover;
+}
+      
+
+.gift-section{
+  margin-top: 50px;
+}
+.gift-title{
+  margin-bottom:10px;
+}
+.gift-hint{
+  margin-top: 0px;
+}
+#footer{
+  font-style:italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
